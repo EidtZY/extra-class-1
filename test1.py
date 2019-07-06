@@ -7,7 +7,7 @@ print(s1+s3+s2)
 for i in range(1,10):
     print(i)
 '''
-
+'''
 for x in range(1,3):
     print('\tx.%d' % (x))
     for y in range(1,3):
@@ -15,3 +15,11 @@ for x in range(1,3):
         for z in range(1,3):
             print('\t\t\tz.%d' % (z))
             print('\t\t\t\tx-y-z = %d-%d-%d' % (x,y,z))
+'''
+'''
+filename = 'test.txt'
+f = open(filename,'w')
+for i in range (1,30):
+    f.write('azxsa\t.%d' % (i))
+f.close()
+'''
